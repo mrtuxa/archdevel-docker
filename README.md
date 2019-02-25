@@ -1,5 +1,6 @@
-[//]: <> (Dockerfile version: 0.1)
-[//]: <> (git repo:  )
+[//]: <> (Dockerfile version: 0.2)  
+[//]: <> (git repo: https://github.com/TheRojam/archdevel-docker)  
+[//]: <> (description: readme for dockerfile)  
 
 # Archdevel Docker
 
