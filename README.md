@@ -1,6 +1,6 @@
-<-- [//]: <> (Dockerfile version: 0.2) --> 
-<-- [//]: <> (git repo: https://github.com/TheRojam/archdevel-docker)  --> 
-<-- [//]: <> (description: readme for dockerfile)  --> 
+<-- [//]: <> (Dockerfile version: 0.2) -->  
+<-- [//]: <> (git repo: https://github.com/TheRojam/archdevel-docker)  -->  
+<-- [//]: <> (description: readme for dockerfile)  -->  
 
 # Archdevel Docker
 
@@ -12,8 +12,8 @@ If you found issues or have improvements you can open an issue at the github rep
 
 You'll find the Dockerfile at (https://github.com/TheRojam/archdevel-docker)
 
-You can just run this container
-
-´´´
- docker run -h archdevel.local -it therojam/archdevel:latest /bin/zsh
+You can just run this container with this cmd:  
+ 
+```
+docker run -h archdevel.local -it therojam/archdevel:latest /bin/zsh
 ```
