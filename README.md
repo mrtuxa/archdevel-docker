@@ -11,3 +11,9 @@ Its based on [archlinux/base](https://hub.docker.com/r/archlinux/base) and insta
 If you found issues or have improvements you can open an issue at the github repository.
 
 You'll find the Dockerfile at (https://github.com/TheRojam/archdevel-docker)
+
+You can just run this container
+
+´´´
+ docker run -h archdevel.local -it therojam/archdevel:latest /bin/zsh
+```
