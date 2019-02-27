@@ -11,6 +11,6 @@ RUN useradd -ms /bin/zsh arch \
 USER arch
 WORKDIR /home/arch
 
-RUN git clone https://aur.archlinux.org/yay.git && cd yay
+# RUN git clone https://aur.archlinux.org/yay.git
 
-RUN  makepkg -si
+# RUN  cd yay && makepkg -si
