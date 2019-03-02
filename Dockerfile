@@ -1,10 +1,11 @@
-# version: 	0.2
-# git: 	   	https://github.com/therojam/archdevel-docker
+# version: 		0.3
+# git: 	   		https://github.com/therojam/archdevel-docker
 # description:	dockerfile for archlinux devel - aur package testing
+# docu:			archdeveldocker.github.io
 
 FROM archlinux/base
 
-RUN pacman -Syu --needed --noconfirm base-devel git zsh sudo openssh pacman-contrib
+RUN pacman -Syu --needed --noconfirm base-devel git zsh vim sudo openssh pacman-contrib
 RUN useradd -ms /bin/zsh arch \
 	&& echo "arch ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 
