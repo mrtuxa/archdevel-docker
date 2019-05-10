@@ -1,4 +1,4 @@
-# version: 		0.4
+# version: 		0.5
 # git: 	   		https://github.com/therojam/archdevel-docker
 # description:	dockerfile for archlinux devel - aur package testing
 # docu:			archdeveldocker.github.io
@@ -15,6 +15,8 @@ RUN useradd -ms /bin/zsh arch \
 USER arch
 WORKDIR /home/arch
 
-# RUN git clone https://aur.archlinux.org/yay.git
+COPY .zshrc.tmp /home/arch/.zshrc
 
-# RUN  cd yay && makepkg -si
+RUN git clone https://aur.archlinux.org/yay.git
+
+RUN  cd yay && makepkg -scfi --noconfirm
