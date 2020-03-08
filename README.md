@@ -18,4 +18,4 @@ You can just run this container with this cmd:
 docker run -h archdevel.local -it therojam/archdevel:latest /bin/zsh
 ```
 
-If you need more Information you'll find at (archdeveldocker.github.io)
+If you need more Information you'll find at [archdeveldocker.therojam.tech](https://archdeveldocker.therojam.tech)
