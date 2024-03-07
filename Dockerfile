@@ -7,7 +7,7 @@ FROM archlinux/base
 
 ENV HOSTNAME="archdevel"
 
-RUN pacman -Syu --needed --noconfirm base-devel git sudo openssh pacman-contrib vim zsh go
+RUN pacman -Syu --needed --noconfirm base-devel git openssh pacman-contrib vim zsh go
 
 RUN useradd -ms /bin/zsh arch \
 	&& echo "arch ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
